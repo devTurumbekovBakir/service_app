@@ -26,7 +26,7 @@ class Plan(models.Model):
                                                    ])
 
     def __str__(self):
-        return self.discount_percent
+        return f'{self.discount_percent}'
 
 
 class Subscription(models.Model):
