@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'cachalot',
     
     'clients',
     'services',
@@ -154,5 +155,6 @@ CACHES = {
         'LOCATION': 'redis://redis:6379/10',
     }
 }
+
 
 PRICE_CACHE_NAME = 'price_cache'
